@@ -1,0 +1,10 @@
+
+app:
+  env:  "development"
+  version: "1.0.0"
+  gcpcredpath: "./config/vault/cred-gcp.json"
+  projectId: "devops-test-388313"
+  bucket:
+    name: "demobucket.zeelso.com"
+  server:
+    addr: "localhost:9000"
